@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
-    overflow: visible;
 }
 
 body {
@@ -24,7 +26,6 @@ section {
 /* ----- HOMEPAGE ----- */
 
     /* -- Background Slideshow -- */
-
     .homepage-background-img-container {
         display: flex;
         animation: slide 21s infinite;
@@ -92,4 +93,33 @@ section {
     .homepage-background-img-container .img-slides {
         width: 100%;
         height: 100%;
+    }
+
+    /* -- Homepage Box -- */
+    .homepage-container-box {
+        position: relative;
+        margin: auto;
+        background-color: rgba(34, 33, 33, .5);
+        border: none;
+        border-radius: 30px;
+        top: 10%;
+        width: 70%;
+        height: 80%;
+    }
+
+    .homepage-msg-container h1 {
+        position: relative;
+        padding-top: 5%;
+        font-size: 100px;
+        text-align: center;
+        color: yellow;
+    }
+
+    .homepage-msg-container h3 {
+        display: block;
+        position: relative;
+        padding-top: 5%;
+        font-size: 30px;
+        text-align: center;
+        color: white;
     }

@@ -27,67 +27,10 @@ section {
 
     /* -- Background Slideshow -- */
     .homepage-background-img-container {
-        display: flex;
-        animation: slide 21s infinite;
         position: fixed;
-    }
-
-    @keyframes slide {
-        0% {
-            transform: translateX(0);
-        }
-
-        15% {
-            transform: translateX(0);
-        }
-
-        20% {
-            transform: translateX(-100%);
-        }
-
-        30% {
-            transform: translateX(-100%);
-        }
-
-        35% {
-            transform: translateX(-200%);
-        }
-
-        45% {
-            transform: translateX(-200%);
-        }
-
-        50% {
-            transform: translateX(-300%);
-        }
-
-        60% {
-            transform: translateX(-300%);
-        }
-
-        65% {
-            transform: translateX(-400%);
-        }
-
-        75% {
-            transform: translateX(-400%);
-        }
-
-        80% {
-            transform: translateX(-500%);
-        }
-
-        90% {
-            transform: translateX(-500%);
-        }
-
-        95% {
-            transform: translateX(-600%);
-        }
-
-        100% {
-            transform: translateX(-600%);
-        }
+        z-index: 0; 
+        width: 100%;
+        height: 100%;
     }
 
     .homepage-background-img-container .img-slides {

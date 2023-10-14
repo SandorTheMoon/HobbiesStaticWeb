@@ -94,3 +94,95 @@ section {
     color: white;
     padding: 5px;
 }
+
+.btn-container {
+    position: relative;
+    display: flex;
+    top: 300px;
+    left: 5%;
+    gap: 20px;
+}
+
+.jjk-button1 {
+    position: relative;
+    display: flex;
+}
+
+.jjk-button2 {
+    position: relative;
+    display: flex;
+}
+
+.jjk-button1 p {
+    position: relative;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.jjk-button2 p {
+    position: relative;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.jjk-button1 button {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width: 200px;
+}
+
+.jjk-button2 button {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width: 250px;
+}
+
+.jjk-button1 img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.jjk-button2 img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.jjk-button1 .btnmoreinfo {
+    background-color: #d9d324;
+    transition: .5s;
+}
+
+.jjk-button2 .btnabout {
+    background-color: #3ad1f3;
+    transition: .5s;
+}
+
+.jjk-button1 .btnmoreinfo {
+    background-color: #d9d324;
+    transition: .5s;
+}
+
+.jjk-button1 .btnmoreinfo:hover {
+    box-shadow: 0px 0px 20px 20px #d9d324;
+}
+
+.jjk-button2 .btnabout {
+    background-color: #3ad1f3;
+    transition: .5s;
+}
+
+.jjk-button2 .btnabout:hover {
+    box-shadow: 0px 0px 20px 20px #3ad1f3;
+}

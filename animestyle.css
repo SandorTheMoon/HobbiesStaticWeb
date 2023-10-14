@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+/* Action Genre Anime */
+#ActionAnime {
+    margin-top: 0.5in;
+    margin-bottom: 1in;
+}
+
+.AnimeActionCoverC {
+    background-color: yellow;
+    width: 95%;
+    height: 2in;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+#AnimeActionPicture {
+    height: 300px;
+    width: 250px;
+}
+
+.AnimeActionsC {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5in;
+    text-align: center;
+}
+
+.AnimeActionC #AnimeActionPicture {
+    cursor: pointer;
+}
+
+.AnimeActionC a {
+    color: white;
+}

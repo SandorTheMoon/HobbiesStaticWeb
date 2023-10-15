@@ -1,0 +1,154 @@
+/* Whole HTML Document */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* transition: all 2s ease-in-out; */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("./Assets/JujutsuBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Title/Description */
+
+.section__text {
+    align-self: center;
+    text-align: left;
+}
+
+.title{
+  display:flex;
+  gap: 2em;
+  padding-top: 5%;
+  padding-left: 7%;
+}
+
+.description{
+  width: 60%;
+  display:flex;
+  flex-direction: column;
+  padding-left: 6%;
+}
+
+.p1 {
+    color: #ffffff;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.rating {
+  color: #ffffff;
+  display:flex;
+  justify-content: center;
+  gap: 0.5em;
+  font-size: 20px;
+  border-radius: 2rem;
+  border: 3px solid #d3d3d3;
+  margin: 0.1em;
+  padding: 0.2em;
+  width: 10%;
+  height: 10%;
+}
+
+.p2{
+  font-size: 16px;
+  color: #ffffff;
+  text-align: justify;
+  padding-left: 5%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+/* Buttons */
+.section_btn{
+    padding-bottom: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 10px;
+  width: 10rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.btn-color-1 {
+  background: #d561ec;
+}
+
+.btn-color-2 {
+  background: #ADD8E6;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: #ffffff 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1:hover {
+  background: #d561ec;
+  color: white;
+}
+
+.btn-color-2:hover {
+  background: #ADD8E6;
+  color: #000000;
+}
+
+.btn-color-1:hover {
+  border: rgb(0, 0, 0) 0.1rem solid;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 0 20px 0 rgba(252,252,252,0.19);
+  color: #000000;
+}
+
+.btn-color-2:hover {
+  border: rgb(0, 0, 0) 0.1rem solid;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 0 20px 0 rgba(252,252,252,0.19);
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+/* Shadows */
+
+.left-shadow{
+  position:absolute;;
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0));
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.right-shadow{
+  position:absolute;;
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}

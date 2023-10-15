@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: gray;
 }
 
 /* Action Genre Anime */
@@ -47,5 +47,75 @@ body {
 }
 
 .AnimeActionC a {
-    color: white;
+    color: black;
 }
+
+/* Navigation Bar */
+
+#NavBar {
+    height: 1in;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.NavBarLinks {
+    list-style: none;
+    display: flex;
+    gap: 0.5in;
+}
+
+.WebsiteName a, .NavBarLinks a {
+    color: black;
+}
+
+#HamburgerNav {
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Closed Navigation Bar */
+
+#NavBar .ToggleButton {
+    display: none;
+}
+
+.DropdownMenu {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    width: 300px;
+    height: 0;
+    overflow: hidden;
+}
+
+.DropdownMenu li  {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.DropdownMenu a {
+    color: black;
+}
+
+/* Navigation Bar Open */
+
+.DropdownMenu.open {
+    height: 175px;
+    background-size: 100%;
+    align-items: center;
+    border-radius: 10% 10%;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+}
+
+/* Anime Action Cover */
+
+/* .AnimeActionCoverC {
+    background-image: url(./Assets/ActionCoverGIF.gif);
+    background-size: 100%;
+} */

@@ -1,15 +1,69 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
+    .WebsiteLinks {
+      display: none;
+    }
+  
+    #NavBar .ToggleButton {
+      display: block;
+    }
+  
+    #NavBar {
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    #NavBar .WebsiteName, #NavBar .ToggleButton {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .DropdownMenu {
+      display: block;
+      top: 18.5%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #NavBar {
+      height: 0.75in;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  
+    #NavBar .WebsiteName, #NavBar .ToggleButton {
+      margin-left: 10%;
+    }
+  
+    #NavBar .ToggleButton {
+      display: flex;
+      align-items: center;
+    }
+  
+    #HamburgerNav {
+      height: 20px;
+    }
+  
+    .DropdownMenu {
+      top: 15%;
+      display: block;
+      position: absolute;
+      left: 10%;
+      width: unset;
+      right: 10%;
+    }
+  
     .AnimeActionCoverC {
-        height: 1in;
-        width: 90%;
+      height: 1in;
+      width: 90%;
     }
-
+  
     .AnimeActionsC {
-        gap: 10px;
+      gap: 10px;
     }
-
+  
     #AnimeActionPicture {
-        height: 150px;
-        width: 125px;
+      height: 150px;
+      width: 125px;
     }
-}
+  }

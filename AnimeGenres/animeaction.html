@@ -5,23 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Action</title>
-    <link rel="stylesheet" href="animestyle.css" />
-    <link rel="stylesheet" href="animemediaqueries.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <nav id="NavBar">
-      <div class="WebsiteNameC">
-        <img src="./AssetsForTesting/Car.png" alt="Anime" id="Logo" />
-        <h1 class="WebsiteName"><a href="../index.html">Anime</a></h1>
+      <div class="WebsiteName">
+        <h1 id="Logo"><a href="#">Anime</a></h1>
       </div>
-      <div class="WebsiteLinksC">
+      <div class="ToggleButton">
+        <img
+          src="./Assets/HamburgerNav.svg"
+          alt="HamburgerNav"
+          id="HamburgerNav"
+        />
+      </div>
+      <div class="WebsiteLinks">
         <ul class="NavBarLinks">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="#AnimeName">Genres</a></li>
-          <li><a href="#AnimeName">About</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Genres</a></li>
+          <li><a href="#">About</a></li>
         </ul>
       </div>
     </nav>
+    <div class="DropdownMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Genres</a></li>
+      <li><a href="#">About</a></li>
+    </div>
     <section id="ActionAnime">
       <div class="AnimeActionCoverC">
         <p>Action</p>
@@ -101,5 +112,6 @@
         </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

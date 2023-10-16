@@ -1,0 +1,113 @@
+@media screen and (max-width: 1200px) {
+
+  /* --- NAV BAR --- */
+  .WebsiteLinks {
+    display: none;
+  }
+
+  #NavBar .ToggleButton {
+    display: block;
+  }
+
+  #NavBar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #NavBar .WebsiteName, #NavBar .ToggleButton {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .DropdownMenu {
+    display: block;
+    top: 18.5%;
+  }
+}
+
+@media screen and (max-width: 1200px){
+
+  /* --- MAIN PAGE --- */
+  .webs-container img {
+    height: 100px;
+    width: 200px;
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+
+  /* --- NAV BAR --- */
+  #NavBar {
+    height: 0.75in;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #NavBar .WebsiteName, #NavBar .ToggleButton {
+    margin-left: 10%;
+  }
+
+  #NavBar .ToggleButton {
+    display: flex;
+    align-items: center;
+  }
+
+  #HamburgerNav {
+    height: 20px;
+  }
+
+  .DropdownMenu {
+    top: 15%;
+    display: block;
+    position: absolute;
+    left: 10%;
+    width: unset;
+    right: 10%;
+  }
+
+  .AnimeActionCoverC {
+    height: 1in;
+    width: 90%;
+  }
+
+  .AnimeActionsC {
+    gap: 10px;
+  }
+
+  #AnimeActionPicture {
+    height: 150px;
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* --- MAIN PAGE --- */
+
+  .anime-title h1{
+    font-size: 30px;
+  }
+
+  .webs-container img {
+    height: 60px;
+    width: 120px;
+  }
+
+  /* --- BUTTONS --- */
+  .back-button-container p {
+    font-size: 10px;
+  }
+
+  .back-button-container button {
+    height: 30px;
+    width: 100px;
+  }
+
+  .back-button-container img {
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+}

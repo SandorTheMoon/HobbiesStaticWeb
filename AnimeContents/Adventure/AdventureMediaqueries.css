@@ -1,0 +1,117 @@
+@media screen and (max-width: 1200px) {
+
+    /* --- NAV BAR --- */
+    .WebsiteLinks {
+        display: none;
+    }
+
+    #NavBar .ToggleButton {
+        display: block;
+    }
+
+    #NavBar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #NavBar .WebsiteName, #NavBar .ToggleButton {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .DropdownMenu {
+        display: block;
+        top: 18.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* --- NAV BAR --- */
+    #NavBar {
+      height: 0.75in;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  
+    #NavBar .WebsiteName, #NavBar .ToggleButton {
+      margin-left: 10%;
+    }
+  
+    #NavBar .ToggleButton {
+      display: flex;
+      align-items: center;
+    }
+  
+    #HamburgerNav {
+      height: 20px;
+    }
+  
+    .DropdownMenu {
+      top: 15%;
+      display: block;
+      position: absolute;
+      left: 10%;
+      width: unset;
+      right: 10%;
+    }
+
+    /* --- MAIN PAGE --- */
+    .anime-title h1 {
+        font-size: 30px;
+    }
+
+    .char img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .char p {
+        font-size: 10px;
+    }
+
+    .rating-container {
+        height: 15px;
+        width: 55px;
+    }
+
+    .rating-container img {
+        padding: 2px;
+        height: 10px;
+        width: 10px;
+    }
+
+    .rating-container p {
+        padding: 2px;
+        font-size: 9px;
+    }
+
+    .jjk-button1 button {
+        height: 30px;
+        width: 100px;
+    }
+
+    .jjk-button1 img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .jjk-button1 p {
+        font-size: 10px;
+    }
+
+    .jjk-button2 button {
+        height: 30px;
+        width: 125px;
+    }
+
+    .jjk-button2 img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .jjk-button2 p {
+        font-size: 10px;
+    }
+}

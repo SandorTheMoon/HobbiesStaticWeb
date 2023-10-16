@@ -18,14 +18,10 @@ body {
 }
 
 .AnimeActionCoverC {
-    /* eto dinagdag ko */
     background-image: url("./Assets/Actions/actionGIF.gif");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    /**/
-
-    background-color: yellow;
+    background-repeat: no-repeat;
     width: 95%;
     height: 2in;
     margin: auto;
@@ -38,7 +34,7 @@ body {
 
 #AnimeActionPicture {
     height: 300px;
-    width: 200px;
+    width: 205px;
 }
 
 .AnimeActionsC {
@@ -56,13 +52,15 @@ body {
     cursor: pointer;
 }
 
+.AnimeActionC {
+    height: 350px;
+}
+
 .AnimeActionC a {
-    /* eto inayos ko */
-    display: inline-block;
-    width: 180px;
-    height: 130px;
-    font-size: 18px;
     color: white;
+    display: inline-block;
+    width: 205px;
+    font-size: 15px;
 }
 
 /* Navigation Bar */
@@ -106,17 +104,6 @@ body {
     overflow: hidden;
 }
 
-.DropdownMenu li  {
-    list-style: none;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.DropdownMenu a {
-    color: black;
-}
-
 /* Navigation Bar Open */
 
 .DropdownMenu.open {
@@ -128,9 +115,13 @@ body {
     backdrop-filter: blur(5px);
 }
 
-/* Anime Action Cover */
+.DropdownMenu li  {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
 
-/* .AnimeActionCoverC {
-    background-image: url(./Assets/ActionCoverGIF.gif);
-    background-size: 100%;
-} */
+.DropdownMenu a {
+    color: black;
+}

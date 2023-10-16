@@ -67,20 +67,6 @@
     width: unset;
     right: 10%;
   }
-
-  .AnimeActionCoverC {
-    height: 1in;
-    width: 90%;
-  }
-
-  .AnimeActionsC {
-    gap: 10px;
-  }
-
-  #AnimeActionPicture {
-    height: 150px;
-    width: 125px;
-  }
 }
 
 @media screen and (max-width: 600px) {

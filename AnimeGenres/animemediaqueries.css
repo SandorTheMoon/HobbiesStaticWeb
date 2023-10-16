@@ -52,6 +52,10 @@
       width: unset;
       right: 10%;
     }
+
+    #ActionAnime {
+      margin-bottom: 0.5in;
+    }
   
     .AnimeActionCoverC {
       height: 1in;
@@ -59,8 +63,17 @@
     }
   
     .AnimeActionsC {
-      gap: 10px;
+      gap: 20px;
     }
+
+    .AnimeActionC {
+      height: 200px;
+    }
+
+    .AnimeActionC a {
+      width: 125px;
+      font-size: 12.5px;
+  }
   
     #AnimeActionPicture {
       height: 150px;

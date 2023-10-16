@@ -1,82 +1,96 @@
 @media screen and (max-width: 1200px) {
-    .WebsiteLinks {
-      display: none;
-    }
-  
-    #NavBar .ToggleButton {
-      display: block;
-    }
-  
-    #NavBar {
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    #NavBar .WebsiteName, #NavBar .ToggleButton {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  
-    .DropdownMenu {
-      display: block;
-      top: 18.5%;
-    }
+  .WebsiteLinks {
+    display: none;
   }
-  
-  @media screen and (max-width: 600px) {
-    #NavBar {
-      height: 0.75in;
-      flex-direction: row-reverse;
-      justify-content: flex-end;
-      align-items: center;
-    }
-  
-    #NavBar .WebsiteName, #NavBar .ToggleButton {
-      margin-left: 10%;
-    }
-  
-    #NavBar .ToggleButton {
-      display: flex;
-      align-items: center;
-    }
-  
-    #HamburgerNav {
-      height: 20px;
-    }
-  
-    .DropdownMenu {
-      top: 15%;
-      display: block;
-      position: absolute;
-      left: 10%;
-      width: unset;
-      right: 10%;
-    }
 
-    #ActionAnime {
-      margin-bottom: 0.5in;
-    }
-  
-    .AnimeActionCoverC {
-      height: 1in;
-      width: 90%;
-    }
-  
-    .AnimeActionsC {
-      gap: 20px;
-    }
-
-    .AnimeActionC {
-      height: 200px;
-    }
-
-    .AnimeActionC a {
-      width: 125px;
-      font-size: 12.5px;
+  #NavBar .ToggleButton {
+    display: block;
   }
-  
-    #AnimeActionPicture {
-      height: 150px;
-      width: 125px;
-    }
+
+  #NavBar {
+    justify-content: space-between;
+    align-items: center;
   }
+
+  #NavBar .WebsiteName,
+  #NavBar .ToggleButton {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .DropdownMenu {
+    display: block;
+    top: 18.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #NavBar {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #Logo {
+    font-size: 17.5px;
+  }
+
+  #NavBar .WebsiteName,
+  #NavBar .ToggleButton {
+    margin-left: 10%;
+  }
+
+  #NavBar .ToggleButton {
+    display: flex;
+    align-items: center;
+  }
+
+  #HamburgerNav {
+    height: 20px;
+  }
+
+  .DropdownMenu {
+    top: 15%;
+    display: block;
+    position: absolute;
+    left: 10%;
+    width: unset;
+    right: 10%;
+  }
+
+  .DropdownMenu a {
+    font-size: 15px;
+  }
+
+  #ActionAnime {
+    margin-bottom: 0.5in;
+  }
+
+  .AnimeActionCoverC {
+    height: 1in;
+    width: 90%;
+  }
+
+  .AnimeActionsC {
+    gap: 20px;
+  }
+
+  .AnimeActionC {
+    height: 225px;
+  }
+
+  .AnimeActionC a {
+    width: 125px;
+    font-size: 12.5px;
+  }
+
+  #AnimeActionPicture {
+    height: 150px;
+    width: 125px;
+  }
+
+  #AnimeActionPicture:hover {
+    height: 150px;
+    width: 125px;
+  }
+}

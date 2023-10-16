@@ -46,9 +46,19 @@ section {
 
 .title h1 {
   color: #ffffff;
+}
+
+.h1font1{
   font-size: 50px;
 }
 
+.h1font2{
+  font-size: 45px;
+}
+
+.h1oneline{
+  white-space: nowrap;
+}
 .description1 {
   position: relative;
   width: 50%;
@@ -86,7 +96,14 @@ section {
   position: relative;
   color: white;
   padding: 5px;
+}
+/* original size */
+.psize1{
   width: 60px;
+}
+/* for long sentences h1 */
+.psize2{
+  width: 80px;
 }
 
 .description2 {

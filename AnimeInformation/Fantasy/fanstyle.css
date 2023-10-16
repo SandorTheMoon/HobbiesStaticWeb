@@ -1,0 +1,213 @@
+/* Whole HTML Document */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Font style */
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  height: 100vh;
+  margin: 0px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+/* Background image */
+.actionbgimg {
+  position: fixed;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+}
+
+.actionbgimg img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Title/Description */
+
+.title{
+  position: relative;
+  display: flex;
+  width: 50%;
+  left: 5%;
+  top: 20%;
+}
+
+.title h1 {
+  color: #ffffff;
+}
+
+.h1font1{
+  font-size: 50px;
+}
+
+.h1font2{
+  font-size: 45px;
+}
+
+.h1oneline{
+  white-space: nowrap;
+}
+.description1 {
+  position: relative;
+  width: 50%;
+  left: 5%;
+  top: 20%;
+}
+
+.description1 p {
+  color: #ffffff;
+  text-align: justify;
+}
+
+/* Rating design */
+.rating {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  margin-top: 2.7%;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: #666666;
+  height: 35px;
+  width: 120px;
+}
+
+.rating img {
+  position: relative;
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+.rating p {
+  position: relative;
+  color: white;
+  padding: 5px;
+}
+/* original size */
+.psize1{
+  width: 60px;
+}
+/* for long sentences h1 */
+.psize2{
+  width: 80px;
+}
+
+.description2 {
+  position: relative;
+  width: 50%;
+  left: 5%;
+  top: 25%;
+}
+
+.description2 p{
+  position: relative;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+
+/* Buttons */
+.section_btn{
+  position: relative;
+  top: 30%;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn { 
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  height: 60px;
+  width: 200px;
+}
+
+.btn-color-2 {
+  width: 250px;
+}
+
+/* Btn texts and icons */
+.btn p{
+  position: relative;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.btn img {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+/* Btn colors */
+.btn-color-1 {
+  background: #d561ec;
+}
+
+.btn-color-2 {
+  background: #ADD8E6;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: #ffffff 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+/* When the cursor in buttons */
+.btn-color-1:hover {
+  background: #d561ec;
+  color: white;
+}
+
+.btn-color-2:hover {
+  background: #ADD8E6;
+  color: #000000;
+}
+
+.btn-color-1:hover {
+  border: rgb(0, 0, 0) 0.1rem solid;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 0 20px 0 rgba(252,252,252,0.19);
+  color: #000000;
+}
+
+.btn-color-2:hover {
+  border: rgb(0, 0, 0) 0.1rem solid;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 0 20px 0 rgba(252,252,252,0.19);
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+/* Shadows */
+
+.left-shadow{
+  position:absolute;
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0));
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}

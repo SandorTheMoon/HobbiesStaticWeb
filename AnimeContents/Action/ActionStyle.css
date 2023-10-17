@@ -203,13 +203,13 @@ section {
     transition: .5s;
 }
 
-.jjk-button1 .btnmoreinfo:hover {
-    box-shadow: 0px 0px 20px 20px #d9d324;
+.jjk-button1:hover,
+.jjk-button2:hover {
+  cursor: pointer;
 }
 
-.jjk-button2 .btnabout {
-    background-color: #3ad1f3;
-    transition: .5s;
+.jjk-button1 .btnmoreinfo:hover {
+    box-shadow: 0px 0px 20px 20px #d9d324;
 }
 
 .jjk-button2 .btnabout:hover {

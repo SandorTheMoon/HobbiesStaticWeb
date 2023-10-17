@@ -20,7 +20,7 @@
 
   .DropdownMenu {
     display: block;
-    top: 18.5%;
+    top: 15%;
   }
 }
 
@@ -33,6 +33,10 @@
 
   #Logo {
     font-size: 17.5px;
+  }
+
+  #Genre {
+    font-size: 50px;
   }
 
   #NavBar .WebsiteName,
@@ -50,7 +54,6 @@
   }
 
   .DropdownMenu {
-    top: 15%;
     display: block;
     position: absolute;
     left: 10%;

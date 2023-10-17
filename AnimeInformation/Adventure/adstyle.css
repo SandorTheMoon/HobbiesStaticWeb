@@ -13,6 +13,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+html, body {
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden
+}
+
 section {
   height: 100vh;
   margin: 0px;
@@ -41,7 +47,7 @@ section {
   display: flex;
   width: 50%;
   left: 5%;
-  top: 20%;
+  top: 10%;
 }
 
 .title h1 {
@@ -63,7 +69,7 @@ section {
   position: relative;
   width: 50%;
   left: 5%;
-  top: 20%;
+  top: 10%;
 }
 
 .description1 p {
@@ -110,7 +116,7 @@ section {
   position: relative;
   width: 50%;
   left: 5%;
-  top: 25%;
+  top: 15%;
 }
 
 .description2 p{
@@ -124,7 +130,7 @@ section {
 /* Buttons */
 .section_btn{
   position: relative;
-  top: 30%;
+  top: 20%;
   gap: 15px;
   display: flex;
   justify-content: center;
@@ -210,4 +216,84 @@ section {
   z-index: -1;
   height: 100%;
   width: 100%;
+}
+
+/* Navigation Bar */
+
+#NavBar {
+  height: 0.75in;
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.NavBarLinks {
+  list-style: none;
+  display: flex;
+  gap: 0.25in;
+}
+
+.WebsiteName a,
+.NavBarLinks a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  transition-duration: 0.5s;
+}
+
+.NavBarLinks a:hover {
+  color: white;
+  background-color: darkorange;
+}
+
+#HamburgerNav {
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Closed Navigation Bar */
+
+#NavBar .ToggleButton {
+  display: none;
+}
+
+.DropdownMenu {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Navigation Bar Open */
+
+.DropdownMenu.open {
+  height: unset;
+  background-size: 100%;
+  align-items: center;
+  border-radius: 10% 10%;
+  cursor: pointer;
+  background-color: orange;
+}
+
+.DropdownMenu li {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.DropdownMenu a {
+  color: black;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.DropdownMenu a:hover {
+  color: white;       
 }

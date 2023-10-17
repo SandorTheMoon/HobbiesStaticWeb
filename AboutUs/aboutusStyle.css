@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    overflow: visible;
+}
+
+section {
+    height: 100vh;
+    margin: 0px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/* --- MAIN PAGE --- */
+
+/* Navigation Bar */
+
+#NavBar {
+    height: 0.75in;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.NavBarLinks {
+    list-style: none;
+    display: flex;
+    gap: 0.25in;
+}
+
+.WebsiteName a,
+.NavBarLinks a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    transition-duration: 0.5s;
+}
+
+.NavBarLinks a:hover {
+    color: white;
+    background-color: darkorange;
+}
+
+#HamburgerNav {
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Closed Navigation Bar */
+
+#NavBar .ToggleButton {
+    display: none;
+}
+
+.DropdownMenu {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    width: 300px;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Navigation Bar Open */
+
+.DropdownMenu.open {
+    height: unset;
+    background-size: 100%;
+    align-items: center;
+    border-radius: 10% 10%;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.DropdownMenu li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.DropdownMenu a {
+    color: black;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+.DropdownMenu a:hover {
+    color: white;       
+}
+
+/* TITLE */
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 5%;
+}
+
+.title h1 {
+    position: relative;
+    color: white;
+    font-size: 70px;
+}
+
+/* PROFILE SECTION */
+.profile-container {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+}
+
+.prof-pic {
+    margin-left: 3%;
+}
+
+.prof-pic img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.text-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.name-and-socials {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.name-and-socials h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.social-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-icon img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.text-container p {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}

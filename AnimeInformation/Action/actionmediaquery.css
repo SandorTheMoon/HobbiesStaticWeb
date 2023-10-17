@@ -68,6 +68,29 @@
         font-size: 15px;
     }
 
+    /* --- Nav --- */
+    .WebsiteLinks {
+        display: none;
+    }
+
+    #NavBar .ToggleButton {
+        display: block;
+    }
+
+    #NavBar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #NavBar .WebsiteName, #NavBar .ToggleButton {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .DropdownMenu {
+        display: block;
+        top: 18.5%;
+    }
 }
 
 
@@ -137,5 +160,41 @@
     .btn p{
         font-size: 10px;
     }
+    /* Nav */
+    #NavBar {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
 
+    #Logo {
+        font-size: 17.5px;
+    }
+
+    #NavBar .WebsiteName,
+    #NavBar .ToggleButton {
+        margin-left: 10%;
+    }
+
+    #NavBar .ToggleButton {
+        display: flex;
+        align-items: center;
+    }
+
+    #HamburgerNav {
+        height: 20px;
+    }
+
+    .DropdownMenu {
+        top: 15%;
+        display: block;
+        position: absolute;
+        left: 10%;
+        width: unset;
+        right: 10%;
+    }
+
+    .DropdownMenu a {
+        font-size: 15px;
+    }
 }

@@ -165,7 +165,7 @@ section {
 
 /* Btn colors */
 .btn-color-1 {
-  background-color: #d9d324;
+  background-color: #d561ec;
   transition: .5s;
 }
 
@@ -180,7 +180,7 @@ section {
 }
 /* When the cursor in buttons */
 .btn-color-1:hover {
-  box-shadow: 0px 0px 20px 20px #d9d324;
+  box-shadow: 0px 0px 20px 20px #d561ec;
 }
 
 .btn-color-2:hover {

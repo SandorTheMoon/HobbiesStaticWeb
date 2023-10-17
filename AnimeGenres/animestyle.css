@@ -30,6 +30,13 @@ body {
   align-items: center;
   justify-content: center;
   border-style: solid;
+  border-color: red;
+}
+
+#Genre {
+  color: white;
+  font-family: "Impact";
+  font-size: 100px;
 }
 
 #AnimeActionPicture {

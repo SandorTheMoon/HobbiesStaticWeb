@@ -1,35 +1,97 @@
-@media screen and (max-width: 1440px) {
-    section {
-        height: 100vh;
+@media screen and (max-width: 1200px) {
+    .homepage-msg-container h1 {
+        font-size: 65px;
     }
 
-    /* -- Homepage Background -- */
-
-    .homepage-background-img-container .img-slides {
-        height: 1007px;
+    .button-container-row1 button {
+        height: 60px;
+        width: 220px;
     }
+
+    .button-container-row2 button {
+        height: 60px;
+        width: 220px;
+    }
+
+    .button-container-row1 img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .button-container-row2 img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .button-container-row1 p {
+        font-size: 30px;
+    }
+
+    .button-container-row2 p {
+        font-size: 30px;
+    }
+
 }
 
-@media screen and (max-width: 1024px) {
-    section {
-        height: 100vh;
-    }
-    
-    /* -- Homepage Background -- */
+@media screen and (max-width: 450px) {
 
-    .homepage-background-img-container .img-slides {
-        height: 869px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    section {
-        height: 100vh;
+    body {
+        background-image: url("./HomepageBGimg/bgmobile.jpg");
+        background-repeat: none;
+        background: cover;
     }
 
-    /* -- Homepage Background -- */
+    .homepage-background-img-container img {
+        display: none;
+    }
 
-    .homepage-background-img-container .img-slides {
-        height: 652px;
+    .homepage-msg-container h1 {
+        top: 30px;
+        font-size: 25px;
+    }
+
+    .homepage-msg-container h3 {
+        top: 50px;
+        font-size: 15px;
+    }
+
+    .button-container-row1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container-row1 button {
+        margin-top: 10px;
+        height: 35px;
+        width: 160px;
+    }
+
+    .button-container-row2 {
+        top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container-row2 button {
+        margin-top: 10px;
+        height: 35px;
+        width: 160px;
+    }
+    .button-container-row1 img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .button-container-row2 img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .button-container-row1 p {
+        font-size: 15px;
+    }
+
+    .button-container-row2 p {
+        font-size: 15px;
     }
 }

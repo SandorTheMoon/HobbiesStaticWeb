@@ -45,6 +45,10 @@
         display: none;
     }
 
+    .homepage-container-box {       /* New Code */
+        height: 62.5%;
+    }
+
     .homepage-msg-container h1 {
         top: 30px;
         font-size: 25px;

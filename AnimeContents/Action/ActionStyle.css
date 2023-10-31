@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
 
 html {
@@ -228,39 +229,38 @@ section {
     justify-content: space-around;
     align-items: center;
     margin: auto;
-}
-
-.NavBarLinks {
+  }
+  
+  .NavBarLinks {
     list-style: none;
     display: flex;
     gap: 0.25in;
-}
-
-.WebsiteName a,
-.NavBarLinks a {
-    text-decoration: none;
+  }
+  
+  .WebsiteName a,
+  .NavBarLinks a {
     color: black;
     padding: 10px 15px;
     transition-duration: 0.5s;
-}
-
-.NavBarLinks a:hover {
+  }
+  
+  .NavBarLinks a:hover {
     color: white;
     background-color: darkorange;
-}
-
-#HamburgerNav {
+  }
+  
+  #HamburgerNav {
     height: 30px;
     cursor: pointer;
-}
-
-/* Closed Navigation Bar */
-
-#NavBar .ToggleButton {
+  }
+  
+  /* Closed Navigation Bar */
+  
+  #NavBar .ToggleButton {
     display: none;
-}
-
-.DropdownMenu {
+  }
+  
+  .DropdownMenu {
     display: none;
     position: absolute;
     right: 1rem;
@@ -268,33 +268,32 @@ section {
     height: 0;
     overflow: hidden;
     z-index: 1;
-}
-
-/* Navigation Bar Open */
-
-.DropdownMenu.open {
+  }
+  
+  /* Navigation Bar Open */
+  
+  .DropdownMenu.open {
     height: unset;
     background-size: 100%;
     align-items: center;
     border-radius: 10% 10%;
     cursor: pointer;
     background-color: orange;
-}
-
-.DropdownMenu li {
-    text-decoration: none;
+  }
+  
+  .DropdownMenu li {
     list-style: none;
     padding: 20px 30px;
     display: flex;
     justify-content: center;
-}
-
-.DropdownMenu a {
+  }
+  
+  .DropdownMenu a {
     color: black;
     transition-duration: 0.5s;
-    text-decoration: none;
-}
-
-.DropdownMenu a:hover {
-    color: white;       
-}
+  }
+  
+  .DropdownMenu a:hover {
+    color: white;
+  }
+  

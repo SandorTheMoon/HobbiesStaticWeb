@@ -58,9 +58,18 @@
     }
 
     /* --- MAIN PAGE --- */
+    .anime-title {          /* New Code */
+        top: 5%;
+    }
+    
     .anime-title h1 {
         font-size: 30px;
     }
+
+    .char-container {       /* New Code */
+        top: 7.5%;
+    }
+
 
     .char img {
         height: 60px;
@@ -72,6 +81,7 @@
     }
 
     .rating-container {
+        top: 10%;           /* New Code */
         height: 15px;
         width: 55px;
     }
@@ -85,6 +95,10 @@
     .rating-container p {
         padding: 2px;
         font-size: 9px;
+    }
+
+    .btn-container {        /* New Code */
+        top: 15%;
     }
 
     .jjk-button1 button {
@@ -113,5 +127,9 @@
 
     .jjk-button2 p {
         font-size: 10px;
+    }
+
+    .homepage-background-img-container img {        /* New Code */
+        height: 50%;
     }
 }

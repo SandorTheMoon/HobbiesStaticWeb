@@ -143,4 +143,13 @@
     .homepage-background-img-container img {        /* New Code */
         height: 50%;
     }
+
+    .Footer1stContainer {
+        gap: 0.15in;
+        font-size: 15px;
+      }
+    
+      .Footer2ndContainer {
+        font-size: 12.5px;
+      }
 }

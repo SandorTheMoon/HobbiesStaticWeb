@@ -297,3 +297,37 @@ section {
     color: white;
   }
   
+  footer {
+  background-color: orange;
+  height: 0.75in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer1stContainer {
+  display: flex;
+  gap: 0.5in;
+  margin-bottom: 5px;
+}
+
+.Footer1stContainer a {
+  color: black;
+  padding: 10px 15px;
+  transition-duration: 0.5s;
+}
+
+.Footer1stContainer a:hover {
+  color: white;
+  background-color: darkorange;
+}
+
+footer, .Footer1stContainer .Footer2ndContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer2ndContainer p {
+  margin-top: 5px;
+  font-family: "Arial";
+}

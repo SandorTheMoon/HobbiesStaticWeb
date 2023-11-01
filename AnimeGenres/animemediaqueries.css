@@ -96,4 +96,13 @@
     height: 150px;
     width: 125px;
   }
+
+  .Footer1stContainer {
+    gap: 0.15in;
+    font-size: 15px;
+  }
+
+  .Footer2ndContainer {
+    font-size: 12.5px;
+  }
 }

@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #101010;
+  background-color: #ecc8af;
 }
 
 /* Action Genre Anime */
@@ -32,6 +32,71 @@ body {
   border-style: solid;
   border-color: red;
 }
+
+.AnimeActionCoverAdventure {
+  background-image: url("./Assets/Adventure/adventureGIF.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 2in;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: #e7ad99;
+}
+
+.AnimeActionCoverRomance {
+  background-image: url("./Assets/Romance/romanceGIF.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 2in;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: red;
+}
+
+.AnimeActionCoverFantasy {
+  background-image: url("./Assets/Fantasy/fantasyGIF.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 2in;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: red;
+}
+
+.AnimeActionCoverComedy{
+  background-image: url("./Assets/Comedy/comedyGIF.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 2in;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: red;
+}
+
 
 #Genre {
   color: white;
@@ -85,7 +150,7 @@ body {
 
 #NavBar {
   height: 0.75in;
-  background-color: orange;
+  background-color: #ce796b;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -158,7 +223,7 @@ body {
 }
 
 footer {
-  background-color: orange;
+  background-color: #ce796b;
   height: 0.75in;
   display: flex;
   align-items: center;

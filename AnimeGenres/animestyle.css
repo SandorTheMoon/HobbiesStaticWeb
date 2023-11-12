@@ -149,6 +149,8 @@ body {
 /* Navigation Bar */
 
 #NavBar {
+  top: 0;
+  position: sticky;
   height: 0.75in;
   background-color: #ce796b;
   display: flex;

@@ -1,154 +1,160 @@
 @media screen and (max-width: 1200px) {
-
     /* --- NAV BAR --- */
     .WebsiteLinks {
-        display: none;
+      display: none;
     }
-
+  
     #NavBar .ToggleButton {
-        display: block;
+      display: block;
     }
-
+  
     #NavBar {
-        justify-content: space-between;
-        align-items: center;
+      justify-content: space-between;
+      align-items: center;
     }
-
-    #NavBar .WebsiteName, #NavBar .ToggleButton {
-        margin-left: 10%;
-        margin-right: 10%;
+  
+    #NavBar .WebsiteName,
+    #NavBar .ToggleButton {
+      margin-left: 10%;
+      margin-right: 10%;
     }
-
+  
     .DropdownMenu {
-        display: block;
-        top: 15%;
+      display: block;
+      top: 15%;
     }
-}
-
-@media screen and (max-width: 600px) {
-
+  }
+  
+  @media screen and (max-width: 600px) {
+  
     /* --- NAV BAR --- */
-      /* #NavBar {
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-  } */
-
-  #Logo {
-    font-size: 17.5px;
-  }
-
-  #Genre {
-    font-size: 50px;
-  }
-
-  /* #NavBar .WebsiteName,
-  #NavBar .ToggleButton {
-    margin-left: 10%;
-  } */
-
-  #NavBar .ToggleButton {
-    display: flex;
-    align-items: center;
-  }
-
-  #HamburgerNav {
-    height: 20px;
-  }
-
-  .DropdownMenu {
-    display: block;
-    position: absolute;
-    left: 10%;
-    width: unset;
-    right: 10%;
-  }
-
-  .DropdownMenu a {
-    font-size: 15px;
-  }
-
+  
+    #Logo {
+      font-size: 17.5px;
+    }
+  
+    #Genre {
+      font-size: 50px;
+    }
+  
+    #NavBar .ToggleButton {
+      display: flex;
+      align-items: center;
+    }
+  
+    #HamburgerNav {
+      height: 20px;
+    }
+  
+    .DropdownMenu {
+      display: block;
+      position: absolute;
+      left: 10%;
+      width: unset;
+      right: 10%;
+    }
+  
+    .DropdownMenu a {
+      font-size: 15px;
+    }
+  
     /* --- MAIN PAGE --- */
-    .anime-title {          /* New Code */
-        top: 5%;
+  
+    .homepage-background-img-container {
+      display: none;
     }
-
+  
+    .anime-title {
+      margin-top: 5%;
+    }
+  
     .anime-title h1 {
-        font-size: 30px;
+      font-size: 30px;
     }
-
-    .char-container {       /* New Code */
-        top: 7.5%;
+  
+    .char-container {
+      margin-top: 5%;
+      gap: 0.25in;
+      justify-content: center;
     }
-
+  
     .char img {
-        height: 60px;
-        width: 60px;
+      height: 100px;
+      width: 100px;
+      margin-bottom: 10px;
     }
-
+  
     .char p {
-        font-size: 10px;
+      font-size: 15px;
     }
-
+  
     .rating-container {
-        top: 10%;           /* New Code */
-        height: 15px;
-        width: 55px;
+      margin-top: 5%; 
+      justify-content: center;
     }
-
-    .rating-container img {
-        padding: 2px;
-        height: 10px;
-        width: 10px;
+  
+    .rating {
+      height: 20px;
+      width: 80px;
     }
-
-    .rating-container p {
-        padding: 2px;
-        font-size: 9px;
+  
+    .rating img {
+      padding: 2px;
+      height: 10px;
+      width: 10px;
     }
-
-    .btn-container {        /* New Code */
-        top: 15%;
+  
+    .rating p {
+      font-size: 12.5px;
     }
-
+  
+    .btn-container {
+      margin-top: 5%;
+      justify-content: space-evenly;
+    }
+  
     .jjk-button1 button {
-        height: 30px;
-        width: 100px;
+      height: 50px;
+      width: 140px;
     }
-
+  
     .jjk-button1 img {
-        height: 20px;
-        width: 20px;
+      height: 15px;
+      width: 15px;
     }
-
+  
     .jjk-button1 p {
-        font-size: 10px;
+      font-size: 12.5px;
     }
-
+  
     .jjk-button2 button {
-        height: 30px;
-        width: 125px;
+      height: 50px;
+      width: 140px;
     }
-
+  
     .jjk-button2 img {
-        height: 20px;
-        width: 20px;
+      height: 15px;
+      width: 15px;
     }
-
+  
     .jjk-button2 p {
-        font-size: 10px;
+      font-size: 12.5px;
     }
-
-    .homepage-background-img-container img {        /* New Code */
-        height: 50%;
+  
+    .homepage-background-img-container img {
+      height: 50%;
     }
-
+  
+    .left-shadow {
+      display: none;
+    }
+  
+    footer {
+      top: 100%;
+    }
+  
     .Footer1stContainer {
-        gap: 0.15in;
-        font-size: 15px;
-      }
-    
-      .Footer2ndContainer {
-        font-size: 12.5px;
-      }
-}
+      font-size: 12.5px;
+    }
+  }
+  
